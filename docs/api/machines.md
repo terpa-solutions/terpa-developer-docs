@@ -32,6 +32,8 @@ curl https://app.terpasolutions.com/api/v1/teams/5e2d4aa0-2f45-4a73-8b4b-9cbb63d
 
 El servicio responde con un objeto que contiene los conteos de estado y un arreglo `machines`.
 
+Este endpoint no incluye detalle de ventas. Para ventas recientes, ventas por día y productos más vendidos usa el detalle de máquina.
+
 Campos en `counts`:
 
 - `total`: total de máquinas encontradas.
@@ -49,7 +51,7 @@ Campos por máquina:
 - `activeUntilDate`: fecha de vigencia de la suscripción (ISO 8601).
 - `subscriptionExpired`: indica si la suscripción está expirada.
 - `isEnabled`: indica si la máquina está activa.
-- `tubesTotal`: cantidad total de tubos/canales configurados (valor en centavos).
+- `tubesTotal`: monto acumulado en los tubos de cambio de la máquina (valor en centavos).
 - `currentChange`: valor actual de cambio disponible (valor en centavos).
 - `type`: tipo de máquina.
 - `status`: estado calculado de conexión (`online`, `warning`, `offline`, `noData`).
