@@ -20,7 +20,7 @@ Integra tus desarrollos a Terpa Solutions para acceder en tiempo real a la infor
 Incluye la key como un token Bearer:
 
 ```bash
-curl https://api.terpasolutions.com/api/v1/teams \
+curl https://app.terpasolutions.com/api/v1/teams \
   -H "Authorization: Bearer <API_KEY>"
 ```
 
