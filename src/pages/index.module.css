@@ -1,0 +1,107 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 6rem 0 5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroContent {
+  max-width: 640px;
+}
+
+.heroEyebrow {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 1rem;
+}
+
+.heroTitle {
+  font-size: clamp(2.6rem, 5vw, 3.8rem);
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  font-size: 1.15rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 2rem;
+}
+
+.heroNote {
+  margin-top: 1.5rem;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.95rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.secondaryButton {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.apiSection {
+  padding: 4.5rem 0 5rem;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.sectionLead {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 1.05rem;
+}
+
+.apiHighlights {
+  margin-top: 1.5rem;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--ifm-color-primary);
+  background: var(--ifm-background-surface-color);
+}
+
+.codeCard {
+  border-radius: 20px;
+  padding: 1.5rem;
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+  box-shadow: 0 20px 45px -30px var(--ifm-color-emphasis-300);
+}
+
+.codeLabel {
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 0.75rem;
+}
+
+.codeBlock {
+  margin: 0 0 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: var(--ifm-color-emphasis-200);
+  font-size: 0.9rem;
+  overflow-x: auto;
+}
+
+.codeBlock:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 4rem 0 3.5rem;
+  }
+
+  .heroContent {
+    text-align: left;
+  }
+}

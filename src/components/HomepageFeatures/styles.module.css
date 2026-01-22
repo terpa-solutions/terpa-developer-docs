@@ -1,0 +1,41 @@
+.features {
+  padding: 3.5rem 0 4.5rem;
+  width: 100%;
+  background: var(--ifm-background-color);
+}
+
+.featuresIntro {
+  max-width: 640px;
+  margin-bottom: 2.5rem;
+}
+
+.featuresIntro p {
+  margin: 0.75rem 0 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 1.05rem;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.featureCard {
+  border-radius: 18px;
+  padding: 1.5rem;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: 0 16px 35px -28px var(--ifm-color-emphasis-300);
+}
+
+.featureTitle {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.featureDescription {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.98rem;
+}
