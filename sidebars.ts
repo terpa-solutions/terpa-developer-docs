@@ -24,7 +24,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Tutorial',
-      items: ['api/create-a-document'],
+      items: ['api/machines'],
     },
   ],
    */
