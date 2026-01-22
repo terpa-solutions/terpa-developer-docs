@@ -50,31 +50,27 @@ export default function Home(): ReactNode {
               <div className="col col--5">
                 <Heading as="h2">Ejemplo rápido</Heading>
                 <p className={styles.sectionLead}>
-                  Tu equipo puede empezar con un request sencillo para leer el
-                  estado de las máquinas en tiempo real.
+                  Tu equipo puede empezar con un request sencillo para leer los
+                  equipos a los que tiene acceso la API Key.
                 </p>
                 <div className={styles.apiHighlights}>
-                  <p>
-                    Autenticacion por API key, filtros por ubicacion y datos en
-                    formato JSON.
-                  </p>
+                  <p>Todos los servicios están en formato Rest / JSON.</p>
                 </div>
               </div>
               <div className="col col--7">
                 <div className={styles.codeCard}>
-                  <p className={styles.codeLabel}>GET /v1/machines</p>
+                  <p className={styles.codeLabel}>GET /api/v1/teams</p>
                   <pre className={styles.codeBlock}>
-                    <code>{`curl https://api.terpasolutions.com/v1/machines \\
+                    <code>{`curl https://app.terpasolutions.com/api/v1/teams \\
   -H "Authorization: Bearer <API_KEY>"`}</code>
                   </pre>
                   <pre className={styles.codeBlock}>
                     <code>{`{
-  "data": [
+  "teams": [
     {
-      "id": "maq_2491",
-      "status": "en_linea",
-      "ultima_venta": "2026-01-21T16:24:00Z",
-      "ingresos_hoy": 2540
+      "id": "6f7e2c9b-3b6a-4a1e-9e2f-8f87b8d0f4a1",
+      "name": "Equipo Monterrey",
+      "slug": "equipo-monterrey-92nFw"
     }
   ]
 }`}</code>
