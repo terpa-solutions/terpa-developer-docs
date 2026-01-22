@@ -16,3 +16,18 @@
 .footer--dark {
   background-color: #232731;
 }
+
+@media (min-width: 996px) {
+  .footer__links .row {
+    justify-content: flex-start;
+  }
+
+  .footer__links .col:last-child {
+    margin-left: auto;
+    text-align: right;
+  }
+
+  .footer__links .col:last-child .footer__items {
+    align-items: flex-end;
+  }
+}

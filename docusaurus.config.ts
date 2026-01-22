@@ -84,17 +84,6 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Descubre',
-          items: [
-            {label: 'Features', href: '#'},
-            {label: 'Integrations', href: '#'},
-            {label: 'Pricing', href: '#'},
-            {label: 'About', href: '#'},
-            {label: 'Contact', href: '#'},
-            {label: 'Privacy policy', href: '#'},
-          ],
-        },
-        {
           title: 'Docs',
           items: [
             {label: 'Introduccion', to: '/docs/intro'},
