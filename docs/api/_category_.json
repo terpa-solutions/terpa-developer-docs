@@ -1,0 +1,9 @@
+{
+  "label": "Documentacion API",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "slug": "/api",
+    "description": "Guia rapida para empezar a integrar la API de Terpa Solutions."
+  }
+}

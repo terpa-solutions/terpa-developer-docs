@@ -24,12 +24,4 @@ curl https://api.terpasolutions.com/api/v1/teams \
   -H "Authorization: Bearer <API_KEY>"
 ```
 
-## 3. Proximos pasos
-
-Explora los endpoints principales:
-
-- `/v1/teams`
-- `/v1/machines`
-- `/v1/sales`
-- `/v1/inventory`
-- `/v1/subscriptions`
+Listo: ya puedes usar la API de Terpa Solutions en tus integraciones.
