@@ -32,9 +32,7 @@ curl "{{base_url}}/api/v1/teams/5e2d4aa0-2f45-4a73-8b4b-9cbb63d5bb4a/machines/3b
 
 ## Parámetros de consulta
 
-- `date`: fecha a consultar. Acepta estos formatos:
-  - `YYYY-MM-DD` (por ejemplo, `2026-01-22`).
-  - Fecha/hora ISO con zona (por ejemplo, `2026-01-22T00:00:00-06:00`).
+- `date`: fecha a consultar en formato `YYYY-MM-DD` (por ejemplo, `2026-01-22`).
 
 Si no envías `date`, el endpoint usa el día actual en la zona horaria `America/Monterrey`. El rango consultado es de inicio a fin de día en esa zona. Si la máquina tiene `activeUntilDate`, el fin del rango se limita a esa fecha.
 
