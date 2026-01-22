@@ -46,7 +46,7 @@ Campos por máquina:
 - `id`: identificador único de la máquina.
 - `name`: nombre de la máquina.
 - `terminalSerialNumber`: número de serie del terminal.
-- `pharosTerminalCode`: código interno del terminal.
+- `pharosTerminalCode`: Código de terminal de Pharos.
 - `lastPingAt`: última señal recibida (ISO 8601) o `null`.
 - `activeUntilDate`: fecha de vigencia de la suscripción (ISO 8601).
 - `subscriptionExpired`: indica si la suscripción está expirada.
