@@ -11,7 +11,7 @@ Integra tus desarrollos a Terpa Solutions para acceder en tiempo real a la infor
 <p class="margin-bottom--md">Entra a tu perfil y crea una llave nueva:</p>
 
 <div class="margin-vert--md">
-  <a class="button button--primary" href="https://app.terpasolutions.com/profile/api-keys">Obtener API Key</a>
+  <a class="button button--primary" href="https://app.terpasolutions.com/profile/api-keys" target="_blank" rel="noopener noreferrer">Obtener API Key</a>
 </div>
 <p class="margin-top--md">Guarda la key en un lugar seguro, la vas a usar en cada request.</p>
 
