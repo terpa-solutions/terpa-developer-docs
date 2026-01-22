@@ -1,5 +1,7 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
+sidebar_label: Inventario
+slug: /api/machine-inventory
 ---
 
 # Inventario de Máquina
