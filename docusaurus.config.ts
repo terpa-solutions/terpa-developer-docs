@@ -94,7 +94,7 @@ const config: Config = {
           title: 'Contacto',
           items: [
             {label: 'WhatsApp', href: 'https://wa.me/5218146940849'},
-            {label: 'Email', href: 'mailto:ventas@terpasolutions.com'},
+            {label: 'Email', href: 'mailto:soporte@terpasolutions.com'},
             {label: 'Instagram', href: 'https://www.instagram.com/terpasolutions/'},
             {label: 'LinkedIn', href: 'https://www.linkedin.com/company/terpasolutions/'},
           ],
